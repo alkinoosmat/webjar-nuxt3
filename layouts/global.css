@@ -31,6 +31,7 @@
 html {
 	scroll-behavior: smooth;
 	color: #303644;
+	font-family: 'cf_asty_light' ', sans-serif';
 }
 
 .hero-text {
@@ -97,4 +98,21 @@ html {
 	border-right-width: 3px;
 	border-top-width: 3px;
 	border-color: #303644;
+}
+.window {
+	box-shadow: #303644 -5px 6px 0px 1px;
+	border-width: 2px;
+	border-color: #303644;
+	background-color: white;
+	border-radius: 20px;
+	padding-left: 40px;
+}
+
+.meal-text {
+	font-family: 'FreeScript';
+	font-size: 2.4rem;
+	color: #00c8ff;
+	transform: rotate(-5deg);
+	letter-spacing: 2px;
+	text-shadow: -4px 2px 2px #7a4f1f;
 }

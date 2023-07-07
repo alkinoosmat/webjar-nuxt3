@@ -1,5 +1,7 @@
 <template>
-	<div class="w-full min-w-[1920px] max-h-[1080px] bg-[#ff9018] px-20">
+	<div
+		class="min-h-fit min-w-[1920px] max-h-[1080px] max-w-[1920px] bg-[#ff9018] px-28"
+	>
 		<div class="flex flex-col justify-center items-center">
 			<p class="text-[44px] leading-[70px] font-bold text-white">
 				Happy & healthy employees work better ❤️

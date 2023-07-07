@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="w-full min-w-[1920px] max-h-[1080px] bg-[#ff9018] flex flex-col pb-40 px-20"
+		class="min-h-fit min-w-[1920px] max-h-[1080px] max-w-[1920px] bg-[#ff9018] flex flex-col pb-40 px-32"
 	>
 		<div class="pt-2 flex justify-center">
 			<img
@@ -9,7 +9,7 @@
 				width="130"
 			/>
 		</div>
-		<div class="flex-row flex justify-evenly pt-20">
+		<div class="flex-row flex justify-between pt-20">
 			<div>
 				<div class="flex h-fit gap-40">
 					<div class="hero-text flex flex-col justify-end pt-40">
@@ -24,7 +24,7 @@
 						Happy & healthy employees work better!
 					</div>
 					<button class="button">
-						<a href="#card1">FIND OUT HOW WE CAN HELP</a>
+						<a href="#cards">FIND OUT HOW WE CAN HELP</a>
 					</button>
 				</div>
 			</div>
