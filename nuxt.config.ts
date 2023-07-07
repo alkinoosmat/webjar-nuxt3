@@ -3,4 +3,5 @@ export default defineNuxtConfig({
 	nitro: {
 		preset: 'vercel-edge',
 	},
+	css: ['~/layouts/global.css'],
 });

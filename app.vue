@@ -1,1 +1,3 @@
-<template><Navbar /></template>
+<template>
+	<Hero />
+</template>

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'cf_asty_bold';
+	src: url('cfastystd-bold-webfont.eot');
+	src: url('cfastystd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('cfastystd-bold-webfont.woff2') format('woff2'),
+		url('cfastystd-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cf_asty_light';
+	src: url('/assets/cfasty/cfastystd-light-webfont.eot');
+	src: url('/assets/cfasty/cfastystd-light-webfont.eot?#iefix')
+			format('embedded-opentype'),
+		url('/assets/cfasty/cfastystd-light-webfont.woff2') format('woff2'),
+		url('/assets/cfasty/cfastystd-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FreeScript';
+	src: local('FreeScript'),
+		url('/assets/FreeScript/FreeScript-Bold.woff') format('truetype');
+}
+html {
+	scroll-behavior: smooth;
+	color: #303644;
+}
+
+.hero-text {
+	font-family: 'FreeScript';
+	font-size: 2rem;
+	color: #00c8ff;
+	transform: rotate(-7deg);
+	letter-spacing: 2px;
+	text-shadow: -4px 2px 2px #7a4f1f;
+}
