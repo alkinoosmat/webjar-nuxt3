@@ -2,4 +2,5 @@
 	<Hero />
 	<Cards />
 	<MealCard />
+	<GiftCard />
 </template>

@@ -141,3 +141,19 @@ html {
 	border-top-width: 3px;
 	border-color: #303644;
 }
+
+.tell-me-more {
+	background-color: #ee5a5a;
+	padding-left: 36px;
+	padding-right: 36px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: auto;
+	font-weight: 700;
+	font-size: 16px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 16px;
+	border-left-width: 8px;
+	border-top-width: 3px;
+	border-color: #303644;
+}
