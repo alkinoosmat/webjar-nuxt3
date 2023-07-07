@@ -57,3 +57,44 @@ html {
 	border-radius: 9999px;
 	margin-top: 40px;
 }
+
+.card {
+	box-shadow: #303644 -5px 6px 0px 1px;
+	border-width: 2px;
+	border-color: #303644;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 18%;
+	background-color: rgba(255, 255, 255, 0.319);
+	border-radius: 20px;
+	height: 500px;
+}
+.card:hover {
+	border-width: 2px;
+	background-color: white;
+	padding-top: 20px;
+}
+
+.card .learn-more {
+	display: none;
+}
+
+.card:hover .learn-more {
+	display: inline;
+	background-color: #ffce3c;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: auto;
+	font-weight: 700;
+	font-size: 16px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-left-width: 5px;
+	border-right-width: 3px;
+	border-top-width: 3px;
+	border-color: #303644;
+}

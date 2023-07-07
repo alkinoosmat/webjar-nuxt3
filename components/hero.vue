@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full h-fit bg-[#ff9018] flex flex-col">
+	<div class="w-full h-fit bg-[#ff9018] flex flex-col pb-40">
 		<div class="pt-2 flex justify-center">
 			<img
 				src="~/assets/img/uphellas-logo.svg"
@@ -17,11 +17,13 @@
 					</div>
 					<div><img src="~/assets/img/5-badge.svg" /></div>
 				</div>
-				<div class="w-[600px] font-bold text-white px-10">
-					<div class="text-[60px] leading-[70px]">
+				<div class="w-[600px] px-10">
+					<div class="text-[60px] leading-[70px] font-bold text-white">
 						Happy & healthy employees work better!
 					</div>
-					<button class="button">FIND OUT HOW WE CAN HELP</button>
+					<button class="button">
+						<a href="#card1">FIND OUT HOW WE CAN HELP</a>
+					</button>
 				</div>
 			</div>
 
