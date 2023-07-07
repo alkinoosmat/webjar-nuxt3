@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'cf_asty_bold';
+	src: url('cfastystd-bold-webfont.eot');
+	src: url('cfastystd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('cfastystd-bold-webfont.woff2') format('woff2'),
+		url('cfastystd-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cf_asty_light';
+	src: url('/assets/cfasty/cfastystd-light-webfont.eot');
+	src: url('/assets/cfasty/cfastystd-light-webfont.eot?#iefix')
+			format('embedded-opentype'),
+		url('/assets/cfasty/cfastystd-light-webfont.woff2') format('woff2'),
+		url('/assets/cfasty/cfastystd-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FreeScript';
+	src: local('FreeScript'),
+		url('/assets/FreeScript/FreeScript-Bold.woff') format('truetype');
+}
+html {
+	scroll-behavior: smooth;
+	color: #303644;
+}
+
+.hero-text {
+	font-family: 'FreeScript';
+	font-size: 2rem;
+	color: #00c8ff;
+	transform: rotate(-7deg);
+	letter-spacing: 2px;
+	text-shadow: -4px 2px 2px #7a4f1f;
+}
+
+.button {
+	box-shadow: #303644 -5px 6px 0px 1px;
+	background-color: white;
+	color: #303644;
+	border-width: 2px;
+	border-color: #303644;
+	font-weight: 700;
+	font-size: 18px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-radius: 9999px;
+	margin-top: 40px;
+}
+
+.card {
+	box-shadow: #303644 -5px 6px 0px 1px;
+	border-width: 2px;
+	border-color: #303644;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 18%;
+	background-color: rgba(255, 255, 255, 0.319);
+	border-radius: 20px;
+	height: 500px;
+}
+.card:hover {
+	border-width: 2px;
+	background-color: white;
+	padding-top: 20px;
+}
+
+.card .learn-more {
+	display: none;
+}
+
+.card:hover .learn-more {
+	display: inline;
+	background-color: #ffce3c;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: auto;
+	font-weight: 700;
+	font-size: 16px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-left-width: 5px;
+	border-right-width: 3px;
+	border-top-width: 3px;
+	border-color: #303644;
+}
