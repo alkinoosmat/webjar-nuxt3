@@ -41,3 +41,7 @@ html {
 	letter-spacing: 2px;
 	text-shadow: -4px 2px 2px #7a4f1f;
 }
+
+.button {
+	box-shadow: #303644 -2px 3px 0px 1px;
+}
