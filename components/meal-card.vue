@@ -3,7 +3,7 @@
 		class="min-h-fit min-w-[1920px] max-h-[1080px] max-w-[1920px] bg-[#fdc03a] pt-20 flex flex-row justify-between"
 	>
 		<div class="flex flex-col mx-28">
-			<div class="meal-text flex flex-col pb-6">
+			<div class="meal-text flex flex-col pb-10">
 				<p>THE UNRIVALLED MEAL</p>
 				<p>CARD SOLUTION</p>
 			</div>
@@ -40,9 +40,26 @@
 						</p>
 					</div>
 					<div><p class="font-bold text-[18px]">BENEFITS</p></div>
-					<ul>
-						<li>test</li>
+					<ul class="flex flex-col gap-4 px-2">
+						<li class="list-item">
+							Order & load cards online in seconds, download invoices & reports
+							in a click
+						</li>
+						<li class="list-item">
+							Best in class service: Quantified & qualified with a monthly
+							report
+						</li>
+						<li class="list-item">
+							Our cards are accepted everywhere in Greece
+						</li>
+						<li class="list-item">
+							Use our app for full control & mobile payments
+						</li>
 					</ul>
+				</div>
+				<div class="contact flex ml-auto w-fit gap-4">
+					<p class="text-white font-bold text-[18px]">CONTACT US</p>
+					<img src="~/assets/img/arrow.png" />
 				</div>
 			</div>
 		</div>

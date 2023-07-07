@@ -100,8 +100,8 @@ html {
 	border-color: #303644;
 }
 .window {
-	box-shadow: #303644 -5px 6px 0px 1px;
-	border-width: 2px;
+	box-shadow: #303644 -5px 6px 0px 2px;
+	border-width: 4px;
 	border-color: #303644;
 	background-color: white;
 	border-radius: 20px;
@@ -115,4 +115,29 @@ html {
 	transform: rotate(-5deg);
 	letter-spacing: 2px;
 	text-shadow: -4px 2px 2px #7a4f1f;
+}
+
+.list-item:before {
+	display: inline-block;
+	content: '';
+	background-image: url('/assets/img/checkmark.png');
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.contact {
+	background-color: #ff9018;
+	padding-left: 36px;
+	padding-right: 36px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: auto;
+	font-weight: 700;
+	font-size: 16px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 16px;
+	border-left-width: 8px;
+	border-top-width: 3px;
+	border-color: #303644;
 }
