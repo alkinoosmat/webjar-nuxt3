@@ -43,5 +43,17 @@ html {
 }
 
 .button {
-	box-shadow: #303644 -2px 3px 0px 1px;
+	box-shadow: #303644 -5px 6px 0px 1px;
+	background-color: white;
+	color: #303644;
+	border-width: 2px;
+	border-color: #303644;
+	font-weight: 700;
+	font-size: 18px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-radius: 9999px;
+	margin-top: 40px;
 }

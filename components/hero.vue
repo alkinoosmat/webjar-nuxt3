@@ -21,11 +21,7 @@
 					<div class="text-[60px] leading-[70px]">
 						Happy & healthy employees work better!
 					</div>
-					<button
-						class="bg-white text-[#303644] border-2 border-[#303644] button font-bold text-[16px] px-6 py-4 rounded-full mt-10"
-					>
-						FIND OUT HOW WE CAN HELP
-					</button>
+					<button class="button">FIND OUT HOW WE CAN HELP</button>
 				</div>
 			</div>
 
