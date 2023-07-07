@@ -14,7 +14,7 @@
 				<input
 					type="text"
 					placeholder="Name &amp; Surname"
-					class="input"
+					class="w-full"
 					v-model="name"
 				/>
 			</div>
@@ -29,19 +29,26 @@
 			<div class="form-field">
 				<input
 					type="tel"
+					class="w-full"
 					placeholder="Phone"
 					v-model="phone"
 					@input="validatePhone"
 				/>
 			</div>
 			<div class="form-field">
-				<input
-					type="text"
-					placeholder="Product"
+				<select
 					v-model="product"
-				/>
+					class="dropdown w-full"
+				>
+					<option value="1">Option 1</option>
+					<option value="2">Option 2</option>
+					<option value="3">Option 3</option>
+					<option value="4">Option 4</option>
+					<option value="5">Option 5</option>
+					<option value="6">Option 6</option>
+				</select>
 			</div>
-			<div class="">
+			<div>
 				<label
 					for="terms"
 					class="checkbox-label"
@@ -128,10 +135,6 @@ export default {
 				return;
 			}
 
-			// All fields are valid, proceed with form submission
-			// Here, you can add your logic to handle the form submission
-
-			// Reset the form fields
 			this.name = '';
 			this.email = '';
 			this.phone = '';
