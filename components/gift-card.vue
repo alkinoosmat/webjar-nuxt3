@@ -10,7 +10,7 @@
 			</div>
 			<div class="window">
 				<div class="flex flex-row justify-between items-center">
-					<img src="~/assets/img/up-gift.svg" />
+					<img src="~/assets/img/UP-GIFT.svg" />
 
 					<p
 						class="flex h-fit rounded-[10px] text-white font-bold text-[14px] bg-[#ee5a5a] px-3"
