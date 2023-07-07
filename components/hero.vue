@@ -1,5 +1,7 @@
 <template>
-	<div class="w-full h-fit bg-[#ff9018] flex flex-col pb-40">
+	<div
+		class="w-full min-w-[1920px] max-h-[1080px] bg-[#ff9018] flex flex-col pb-40 px-20"
+	>
 		<div class="pt-2 flex justify-center">
 			<img
 				src="~/assets/img/uphellas-logo.svg"

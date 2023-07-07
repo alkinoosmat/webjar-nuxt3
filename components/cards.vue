@@ -1,7 +1,7 @@
 <template>
-	<div class="w-full h-fit bg-[#ff9018]">
+	<div class="w-full min-w-[1920px] max-h-[1080px] bg-[#ff9018] px-20">
 		<div class="flex flex-col justify-center items-center">
-			<p class="text-[40px] leading-[70px] font-bold text-white">
+			<p class="text-[44px] leading-[70px] font-bold text-white">
 				Happy & healthy employees work better ❤️
 			</p>
 			<p class="text-[28px] font-thin leading-[40px] text-white">
@@ -27,9 +27,9 @@
 				>
 			</div>
 			<div class="card">
-				<img src="~/assets/img/go-for-eat.svg" />
+				<img src="~/assets/img/UP-GIFT.svg" />
 				<p>The unrivalled meal card solution</p>
-				<img src="~/assets/img/goforeat.png" />
+				<img src="~/assets/img/2.png" />
 				<a
 					class="learn-more"
 					href="#"
@@ -37,9 +37,9 @@
 				>
 			</div>
 			<div class="card">
-				<img src="~/assets/img/go-for-eat.svg" />
+				<img src="~/assets/img/up-cheque.svg" />
 				<p>The unrivalled meal card solution</p>
-				<img src="~/assets/img/goforeat.png" />
+				<img src="~/assets/img/3.png" />
 				<a
 					class="learn-more"
 					href="#"
@@ -47,9 +47,9 @@
 				>
 			</div>
 			<div class="card">
-				<img src="~/assets/img/go-for-eat.svg" />
+				<img src="~/assets/img/up-holidays.svg" />
 				<p>The unrivalled meal card solution</p>
-				<img src="~/assets/img/goforeat.png" />
+				<img src="~/assets/img/4.png" />
 				<a
 					class="learn-more"
 					href="#"
@@ -57,9 +57,9 @@
 				>
 			</div>
 			<div class="card">
-				<img src="~/assets/img/go-for-eat.svg" />
+				<img src="~/assets/img/up-fit.svg" />
 				<p>The unrivalled meal card solution</p>
-				<img src="~/assets/img/goforeat.png" />
+				<img src="~/assets/img/5.png" />
 				<a
 					class="learn-more"
 					href="#"
