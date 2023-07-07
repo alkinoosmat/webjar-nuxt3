@@ -157,3 +157,87 @@ html {
 	border-top-width: 3px;
 	border-color: #303644;
 }
+
+.form {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 16px;
+	margin-top: 40px;
+}
+
+.form input::placeholder {
+	color: #303644;
+	opacity: 0.7;
+}
+
+.form input {
+	background-color: rgba(255, 255, 255, 0.671);
+}
+
+.form-field {
+	box-shadow: #303644 5px -6px 0px 1px;
+	background-color: rgba(255, 255, 255, 0.671);
+	color: #303644;
+	border-width: 2px;
+	border-color: #303644;
+	font-weight: 700;
+	font-size: 18px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-radius: 9999px;
+	margin-top: 40px;
+	width: 400px;
+}
+
+.form-field:hover {
+	box-shadow: #303644 -5px 6px 0px 1px;
+	background-color: white;
+	color: #303644;
+	border-width: 2px;
+	border-color: #303644;
+	font-weight: 700;
+	font-size: 18px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-radius: 9999px;
+	margin-top: 40px;
+}
+
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 22px;
+}
+
+.popup-close-button {
+	box-shadow: #303644 -5px 6px 0px 1px;
+	background-color: white;
+	color: #303644;
+	border-width: 2px;
+	border-color: #303644;
+	font-weight: 700;
+	font-size: 18px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-radius: 9999px;
+	margin-top: 40px;
+}

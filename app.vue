@@ -4,4 +4,5 @@
 	<MealCard />
 	<GiftCard />
 	<Testimonials />
+	<Contact />
 </template>
