@@ -57,9 +57,14 @@
 						</li>
 					</ul>
 				</div>
-				<div class="contact flex ml-auto w-fit gap-4">
-					<p class="text-white font-bold text-[18px]">CONTACT US</p>
-					<img src="~/assets/img/arrow.png" />
+				<div class="contact ml-auto w-fit">
+					<a
+						href="#contact"
+						class="flex gap-4 text-white font-bold text-[18px]"
+					>
+						<p class="text-white font-bold text-[18px]">CONTACT US</p>
+						<img src="~/assets/img/arrow.png" />
+					</a>
 				</div>
 			</div>
 		</div>

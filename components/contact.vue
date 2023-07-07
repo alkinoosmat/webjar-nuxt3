@@ -6,7 +6,10 @@
 			I am interested in getting the benefits of
 			<span class="text-[#ff9018]">Up Hellas</span>
 		</div>
-		<div class="form">
+		<div
+			class="form"
+			id="contact"
+		>
 			<div class="form-field">
 				<input
 					type="text"

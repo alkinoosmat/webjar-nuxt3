@@ -53,9 +53,14 @@
 						<li class="list-item">Our app is loaded with crazy-fun features</li>
 					</ul>
 				</div>
-				<div class="tell-me-more flex ml-auto w-fit gap-4">
-					<p class="text-white font-bold text-[18px]">TELL ME MORE</p>
-					<img src="~/assets/img/arrow.png" />
+				<div class="tell-me-more ml-auto w-fit">
+					<a
+						href="#contact"
+						class="flex gap-4 text-white font-bold text-[18px]"
+					>
+						<p class="text-white font-bold text-[18px]">TELL ME MORE</p>
+						<img src="~/assets/img/arrow.png" />
+					</a>
 				</div>
 			</div>
 		</div>
