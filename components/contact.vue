@@ -3,7 +3,7 @@
 		class="w-full xl:min-h-fit xl:max-h-[1080px] bg-[#00c8ff] flex flex-col justify-center items-center py-20"
 	>
 		<div
-			class="px-6 flex justify-center items-center xl:text-[60px] xl:leading-[70px] text-[22px] leading-[24px] font-bold"
+			class="px-6 flex justify-center items-center xl:text-[40px] xl:leading-[70px] text-[22px] leading-[24px] font-bold"
 		>
 			<div>
 				I am interested in getting the benefits of
@@ -44,34 +44,56 @@
 					v-model="product"
 					class="dropdown w-full"
 				>
-					<option value="1">Option 1</option>
-					<option value="2">Option 2</option>
-					<option value="3">Option 3</option>
-					<option value="4">Option 4</option>
-					<option value="5">Option 5</option>
-					<option value="6">Option 6</option>
+					<option
+						disabled
+						value=""
+					>
+						Select a product
+					</option>
+					<option value="1">Product 1</option>
+					<option value="2">Product 2</option>
+					<option value="3">Product 3</option>
+					<option value="4">Product 4</option>
+					<option value="5">Product 5</option>
+					<option value="6">Product 6</option>
 				</select>
 			</div>
-			<div>
-				<label
-					for="terms"
-					class="checkbox-label"
-				>
-					<input
-						id="terms"
-						type="checkbox"
-						v-model="acceptedTerms"
-					/>
-					I accept the terms of service
-				</label>
-			</div>
 		</div>
-		<button
-			class="button"
-			@click="submitForm"
-		>
-			Submit
-		</button>
+		<div class="py-6">
+			<label
+				for="terms"
+				class="checkbox-label flex gap-2"
+			>
+				<input
+					id="terms"
+					type="checkbox"
+					v-model="acceptedTerms"
+					class="custom-checkbox"
+				/>
+				<span class="custom-checkbox-icon"></span>
+				<p class="w-[300px] sm:w-auto">
+					Επιθυμώ να χρησιμοποιηθούν τα παραπάνω στοιχεία μου από την Up Hellas,
+					προκειμένου να ενημερωθώ για τα προϊόντα της, βάσει και του Γενικού
+					Κανονισμού για την Προστασία Προσωπικών Δεδομένων που ισχύει από
+					25/5/2018.
+				</p>
+			</label>
+		</div>
+		<div class="flex gap-5 flex-col sm:flex-row items-center justify-center">
+			<button
+				class="submit-button"
+				@click="submitForm"
+			>
+				SEND US YOUR MESSAGE
+			</button>
+			<p>OR</p>
+			<button
+				class="submit-button"
+				@click="submitForm"
+			>
+				SEND US YOUR MESSAGE
+			</button>
+		</div>
 		<div
 			v-if="showPopup"
 			class="popup"

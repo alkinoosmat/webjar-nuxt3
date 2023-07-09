@@ -295,8 +295,8 @@ html {
 		content: '';
 		background-image: url('/assets/img/checkmark.png');
 		background-size: contain;
-		width: 40px;
-		height: 40px;
+		width: 20px;
+		height: 20px;
 		margin-right: 10px;
 	}
 	.form {
@@ -305,4 +305,41 @@ html {
 		grid-gap: 16px;
 		margin-top: 40px;
 	}
+}
+
+.custom-checkbox {
+	display: none; /* Hide the default checkbox */
+}
+
+.custom-checkbox-icon {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background-color: #fff;
+	box-shadow: #303644 -2px 2px 0px 0px;
+	border-width: 2px;
+	border-color: #303644;
+	border-radius: 5px;
+	/* Add your custom icon background image or use CSS properties like 'background-image' to set the icon */
+}
+
+.custom-checkbox:checked + .custom-checkbox-icon {
+	background-image: url('/assets/img/check.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.submit-button {
+	box-shadow: #303644 -5px 6px 0px 1px;
+	background-color: #ffce3c;
+	color: #303644;
+	border-width: 2px;
+	border-color: #303644;
+	font-weight: 700;
+	font-size: 14px;
+	padding-left: 26px;
+	padding-right: 26px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-radius: 9999px;
 }

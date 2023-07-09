@@ -1,9 +1,7 @@
 <template>
-	<div
-		class="w-full xl:min-h-fit xl:max-h-[1080px] bg-[#ff9018] px-10 xl:px-28"
-	>
+	<div class="w-full min-h-fit bg-[#ff9018] px-10 xl:px-28">
 		<div
-			class="flex flex-col justify-center items-center mx-auto w-[300px] sm:w-[400px]"
+			class="flex flex-col justify-center items-center mx-auto w-[300px] sm:w-[400px] xl:w-[600px] 2xl:w-fit"
 		>
 			<p
 				class="text-[20px] xl:text-[44px] xl:leading-[70px] font-bold text-white"
@@ -17,44 +15,43 @@
 				transform the workplace experience.
 			</p>
 		</div>
-		<div class="flex flex-row justify-evenly items-center gap-1 pt-20 pb-40">
-			<div class="flex flex-col xl:flex-row gap-10">
-				<div
-					class="card"
-					id="cards"
+		<div
+			class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-5 gap-10 pt-20 pb-40"
+		>
+			<div class="card">
+				<img src="~/assets/img/go-for-eat.svg" />
+				<p>The unrivaled meal card solution</p>
+				<img
+					src="~/assets/img/goforeat.png"
+					class="object-contain w-[312px] pt-5"
+				/>
+				<a
+					class="learn-more"
+					href="#"
+					>LEARN MORE</a
 				>
-					<img src="~/assets/img/go-for-eat.svg" />
-					<p>The unrivaled meal card solution</p>
-					<img
-						src="~/assets/img/goforeat.png"
-						class="w-56 xl:w-[200px]"
-					/>
-					<a
-						class="learn-more"
-						href="#"
-						>LEARN MORE</a
-					>
-				</div>
-				<div class="card">
-					<img src="~/assets/img/UP-GIFT.svg" />
-					<p>The unrivaled meal card solution</p>
-					<img src="~/assets/img/2.png" />
-					<a
-						class="learn-more"
-						href="#"
-						>LEARN MORE</a
-					>
-				</div>
-				<div class="card">
-					<img src="~/assets/img/up-cheque.svg" />
-					<p>The unrivaled meal card solution</p>
-					<img src="~/assets/img/3.png" />
-					<a
-						class="learn-more"
-						href="#"
-						>LEARN MORE</a
-					>
-				</div>
+			</div>
+			<div class="card">
+				<img src="~/assets/img/UP-GIFT.svg" />
+				<p>The unrivaled meal card solution</p>
+				<img src="~/assets/img/2.png" />
+				<a
+					class="learn-more"
+					href="#"
+					>LEARN MORE</a
+				>
+			</div>
+			<div class="card">
+				<img src="~/assets/img/up-cheque.svg" />
+				<p>The unrivaled meal card solution</p>
+				<img src="~/assets/img/3.png" />
+				<a
+					class="learn-more"
+					href="#"
+					>LEARN MORE</a
+				>
+			</div>
+			<div class="flex justify-center items-center">
 				<div class="card">
 					<img src="~/assets/img/up-holidays.svg" />
 					<p>The unrivaled meal card solution</p>
@@ -65,6 +62,8 @@
 						>LEARN MORE</a
 					>
 				</div>
+			</div>
+			<div class="flex justify-center items-center">
 				<div class="card">
 					<img src="~/assets/img/up-fit.svg" />
 					<p>The unrivaled meal card solution</p>

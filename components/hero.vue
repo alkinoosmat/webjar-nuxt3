@@ -9,7 +9,9 @@
 				class="w-32"
 			/>
 		</div>
-		<div class="flex-col lg:flex-row flex justify-between xl:pt-20">
+		<div
+			class="flex-col lg:flex-row flex justify-between sm:justify-center xl:pt-20"
+		>
 			<div class="">
 				<div class="flex xl:h-fit xl:gap-40 justify-between">
 					<div class="hero-text flex flex-col justify-end pt-20 xl:pt-40">

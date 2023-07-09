@@ -1,26 +1,28 @@
 <template>
 	<div
-		class="w-full xl:min-h-fit xl:max-h-[1080px] bg-[#fdc03a] py-6 xl:pt-20 flex flex-row justify-between"
+		class="w-full min-h-fit bg-[#fdc03a] py-6 xl:pt-20 flex flex-col 2xl:flex-row justify-between sm:justify-center"
 	>
 		<div class="flex flex-col px-6 xl:mx-28">
 			<div class="meal-text flex flex-col pb-10">
 				<p>THE UNRIVALLED MEAL</p>
 				<p>CARD SOLUTION</p>
 			</div>
-			<div class="window xl:px-[40px]">
+			<div class="window">
 				<div class="px-4 pb-6">
 					<div
-						class="flex xl:flex-row flex-col xl:gap-5 justify-center items-center"
+						class="flex sm:flex-row flex-col xl:gap-5 justify-between items-center"
 					>
-						<img src="~/assets/img/go-for-eat.svg" />
-						<p
-							class="flex h-fit rounded-[10px] text-white font-bold text-[14px] bg-[#ff9018] px-3"
-						>
-							MEAL CARD
-						</p>
+						<div class="flex flex-col sm:flex-row items-center sm:gap-5">
+							<img src="~/assets/img/go-for-eat.svg" />
+							<p
+								class="bg-[#ff9018] px-2 rounded-[10px] text-white font-bold text-[14px]"
+							>
+								MEAL CARD
+							</p>
+						</div>
 						<img
 							src="~/assets/img/goforeatcard.png"
-							class="xl:ml-60 mt-6 xl:mr-6 xl:w-[160px] w-20"
+							class="xl:ml-52 mt-6 xl:mr-6 sm:w-[160px] w-20"
 						/>
 					</div>
 					<div class="flex flex-col gap-6">
@@ -74,10 +76,10 @@
 				</div>
 			</div>
 		</div>
-		<div>
+		<div class="flex justify-center">
 			<img
 				src="~/assets/img/goforeat.png"
-				class="hidden xl:block"
+				class="object-contain"
 			/>
 		</div>
 	</div>
