@@ -39,7 +39,7 @@
 	</div>
 
 	<div
-		class="py-10 flex overflow-scroll lg:overflow-hidden gap-2 justify-start lg:justify-evenly bg-[#ffd069] w-full"
+		class="py-10 flex overflow-x-scroll xl:overflow-hidden gap-2 justify-start lg:justify-evenly bg-[#ffd069] w-full"
 	>
 		<img src="~/assets/img/logo-1.svg" />
 		<img src="~/assets/img/logo-2.svg" />

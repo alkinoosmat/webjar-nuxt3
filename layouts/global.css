@@ -33,6 +33,19 @@ html {
 	scroll-behavior: smooth;
 	color: #303644;
 	font-family: 'cf_asty_bold' !important;
+	scrollbar-width: thin;
+	scrollbar-color: #888 #f1f1f1;
+}
+::-webkit-scrollbar {
+	width: 1px;
+}
+
+::-webkit-scrollbar-track {
+	background: #ffd069;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ffd069;
 }
 
 .hero-text {
