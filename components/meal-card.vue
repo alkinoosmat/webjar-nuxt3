@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="w-full min-h-fit bg-[#fdc03a] py-6 xl:pt-20 flex flex-col 2xl:flex-row justify-between sm:justify-center"
+		class="w-full min-h-fit bg-[#fdc03a] py-20 xl:pt-20 flex flex-col 2xl:flex-row justify-between sm:justify-center"
 	>
 		<div class="flex flex-col px-6 xl:mx-28">
 			<div class="meal-text flex flex-col pb-10">

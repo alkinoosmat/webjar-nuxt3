@@ -71,7 +71,7 @@
 					class="custom-checkbox"
 				/>
 				<span class="custom-checkbox-icon"></span>
-				<p class="w-[300px] sm:w-auto">
+				<p class="w-[300px] sm:w-[600px]">
 					Επιθυμώ να χρησιμοποιηθούν τα παραπάνω στοιχεία μου από την Up Hellas,
 					προκειμένου να ενημερωθώ για τα προϊόντα της, βάσει και του Γενικού
 					Κανονισμού για την Προστασία Προσωπικών Δεδομένων που ισχύει από
@@ -86,7 +86,7 @@
 			>
 				SEND US YOUR MESSAGE
 			</button>
-			<p>OR</p>
+			<p class="font-bold sm:pr-1 pr-0">OR</p>
 			<button
 				class="submit-button"
 				@click="submitForm"

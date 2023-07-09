@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full min-h-fit bg-[#ff9018] px-10 xl:px-28">
+	<div class="w-full min-h-fit bg-[#ff9018] px-10 xl:px-28 py-20">
 		<div
 			class="flex flex-col justify-center items-center mx-auto w-[300px] sm:w-[400px] xl:w-[600px] 2xl:w-fit"
 		>
@@ -16,7 +16,7 @@
 			</p>
 		</div>
 		<div
-			class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-5 gap-10 pt-20 pb-40"
+			class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-5 gap-10 pt-20"
 		>
 			<div
 				class="card"
