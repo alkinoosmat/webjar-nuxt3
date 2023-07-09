@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="min-h-fit min-w-[1920px] max-h-[1080px] max-w-[1920px] bg-[#ffd069] flex flex-col pb-40 px-32"
+		class="xl:min-h-fit xl:min-w-[1920px] xl:max-h-[1080px] xl:max-w-[1920px] bg-[#ffd069] flex flex-col pb-40 px-32"
 	>
 		<div class="flex flex-col justify-center items-center">
 			<p class="text-[44px] leading-[70px] font-bold">Testimonials</p>
@@ -12,7 +12,9 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex gap-6 justify-center bg-[#ffd069]">
+	<div
+		class="flex gap-6 justify-center bg-[#ffd069] xl:min-h-fit xl:min-w-[1920px] xl:max-h-[1080px] xl:max-w-[1920px]"
+	>
 		<img src="~/assets/img/logo-1.svg" />
 		<img src="~/assets/img/logo-2.svg" />
 		<img src="~/assets/img/logo-3.svg" />

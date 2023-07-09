@@ -1,10 +1,14 @@
 <template>
 	<div
-		class="min-h-fit min-w-[1920px] max-h-[1080px] max-w-[1920px] bg-[#00c8ff] flex flex-col justify-center items-center"
+		class="w-full xl:min-h-fit xl:max-h-[1080px] bg-[#00c8ff] flex flex-col justify-center items-center py-20"
 	>
-		<div class="text-[36px] leading-[70px] font-bold">
-			I am interested in getting the benefits of
-			<span class="text-[#ff9018]">Up Hellas</span>
+		<div
+			class="px-6 flex justify-center items-center xl:text-[60px] xl:leading-[70px] text-[22px] leading-[24px] font-bold"
+		>
+			<div>
+				I am interested in getting the benefits of
+				<span class="text-[#ff9018]">Up Hellas</span>
+			</div>
 		</div>
 		<div
 			class="form"
