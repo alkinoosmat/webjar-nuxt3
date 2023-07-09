@@ -32,7 +32,7 @@
 html {
 	scroll-behavior: smooth;
 	color: #303644;
-	font-family: 'cf_asty_light' ', sans-serif';
+	font-family: 'cf_asty_bold' !important;
 }
 
 .hero-text {
@@ -166,6 +166,10 @@ html {
 }
 
 .form input::placeholder {
+	color: #303644;
+	opacity: 0.7;
+}
+.dropdown {
 	color: #303644;
 	opacity: 0.7;
 }
@@ -370,4 +374,19 @@ html {
 .quote-icon:last-child {
 	right: 0;
 	top: auto;
+}
+
+.schedule-button {
+	box-shadow: #303644 -5px 6px 0px 1px;
+	background-color: white;
+	color: #303644;
+	border-width: 2px;
+	border-color: #303644;
+	font-weight: 700;
+	font-size: 14px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-radius: 9999px;
 }

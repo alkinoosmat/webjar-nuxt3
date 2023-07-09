@@ -87,11 +87,16 @@
 				SEND US YOUR MESSAGE
 			</button>
 			<p class="font-bold sm:pr-1 pr-0">OR</p>
+
 			<button
-				class="submit-button"
-				@click="submitForm"
+				class="schedule-button flex items-center gap-2"
+				@click="openPopup('This feature is not yet available.')"
 			>
-				SEND US YOUR MESSAGE
+				<img
+					src="~/assets/img/meeting-logo.svg"
+					class="w-5"
+				/>
+				SCHEDULE A MEETING
 			</button>
 		</div>
 		<div
