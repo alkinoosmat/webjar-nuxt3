@@ -2,7 +2,9 @@
 	<div
 		class="w-full xl:min-h-fit xl:max-h-[1080px] bg-[#ff9018] px-10 xl:px-28"
 	>
-		<div class="flex flex-col justify-center items-center">
+		<div
+			class="flex flex-col justify-center items-center mx-auto w-[300px] sm:w-[400px]"
+		>
 			<p
 				class="text-[20px] xl:text-[44px] xl:leading-[70px] font-bold text-white"
 			>
@@ -19,11 +21,14 @@
 			<div class="flex flex-col xl:flex-row gap-10">
 				<div
 					class="card"
-					id="card1"
+					id="cards"
 				>
 					<img src="~/assets/img/go-for-eat.svg" />
 					<p>The unrivaled meal card solution</p>
-					<img src="~/assets/img/goforeat.png" />
+					<img
+						src="~/assets/img/goforeat.png"
+						class="w-56 xl:w-[200px]"
+					/>
 					<a
 						class="learn-more"
 						href="#"

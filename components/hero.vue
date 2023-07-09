@@ -11,7 +11,7 @@
 		</div>
 		<div class="flex-col md:flex-row flex justify-between xl:pt-20">
 			<div>
-				<div class="flex xl:h-fit xl:gap-40">
+				<div class="flex xl:h-fit xl:gap-40 justify-between">
 					<div class="hero-text flex flex-col justify-end pt-20 xl:pt-40">
 						<p>HERE'S A</p>
 

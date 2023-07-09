@@ -28,6 +28,7 @@
 	src: local('FreeScript'),
 		url('/assets/FreeScript/FreeScript-Bold.woff') format('truetype');
 }
+
 html {
 	scroll-behavior: smooth;
 	color: #303644;
@@ -41,16 +42,6 @@ html {
 	transform: rotate(-7deg);
 	letter-spacing: 2px;
 	text-shadow: -4px 2px 2px #7a4f1f;
-}
-@media screen and (min-width: 640px) {
-	.hero-text {
-		font-family: 'FreeScript';
-		font-size: 2rem;
-		color: #00c8ff;
-		transform: rotate(-7deg);
-		letter-spacing: 2px;
-		text-shadow: -4px 2px 2px #7a4f1f;
-	}
 }
 
 .button {
@@ -68,23 +59,6 @@ html {
 	border-radius: 9999px;
 	margin-top: 20px;
 }
-@media screen and (min-width: 640px) {
-	.button {
-		box-shadow: #303644 -5px 6px 0px 1px;
-		background-color: white;
-		color: #303644;
-		border-width: 2px;
-		border-color: #303644;
-		font-weight: 700;
-		font-size: 18px;
-		padding-left: 24px;
-		padding-right: 24px;
-		padding-top: 16px;
-		padding-bottom: 16px;
-		border-radius: 9999px;
-		margin-top: 40px;
-	}
-}
 
 .card {
 	box-shadow: #303644 -5px 6px 0px 1px;
@@ -98,21 +72,6 @@ html {
 	background-color: rgba(255, 255, 255, 0.319);
 	border-radius: 20px;
 	height: 500px;
-}
-@media screen and (min-width: 640px) {
-	.card {
-		box-shadow: #303644 -5px 6px 0px 1px;
-		border-width: 2px;
-		border-color: #303644;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		width: 18%;
-		background-color: rgba(255, 255, 255, 0.319);
-		border-radius: 20px;
-		height: 500px;
-	}
 }
 
 .card:hover {
@@ -158,16 +117,6 @@ html {
 	letter-spacing: 2px;
 	text-shadow: -4px 2px 2px #7a4f1f;
 }
-@media screen and (min-width: 640px) {
-	.meal-text {
-		font-family: 'FreeScript';
-		font-size: 2.4rem;
-		color: #00c8ff;
-		transform: rotate(-5deg);
-		letter-spacing: 2px;
-		text-shadow: -4px 2px 2px #7a4f1f;
-	}
-}
 
 .list-item:before {
 	display: inline-block;
@@ -177,17 +126,6 @@ html {
 	width: 15px;
 	height: 15px;
 	margin-right: 2px;
-}
-@media screen and (min-width: 640px) {
-	.list-item:before {
-		display: inline-block;
-		content: '';
-		background-image: url('/assets/img/checkmark.png');
-		background-size: contain;
-		width: 40px;
-		height: 40px;
-		margin-right: 10px;
-	}
 }
 
 .contact {
@@ -226,14 +164,6 @@ html {
 	display: grid;
 	margin-top: 10px;
 }
-@media screen and (min-width: 640px) {
-	.form {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 16px;
-		margin-top: 40px;
-	}
-}
 
 .form input::placeholder {
 	color: #303644;
@@ -262,24 +192,6 @@ html {
 	border-radius: 9999px;
 	margin-top: 40px;
 	width: 300px;
-}
-@media screen and (min-width: 640px) {
-	.form-field {
-		box-shadow: #303644 5px -6px 0px 1px;
-		background-color: rgba(255, 255, 255, 0.671);
-		color: #303644;
-		border-width: 2px;
-		border-color: #303644;
-		font-weight: 700;
-		font-size: 18px;
-		padding-left: 24px;
-		padding-right: 24px;
-		padding-top: 16px;
-		padding-bottom: 16px;
-		border-radius: 9999px;
-		margin-top: 40px;
-		width: 400px;
-	}
 }
 
 .form-field:hover {
@@ -331,4 +243,82 @@ html {
 	padding-bottom: 16px;
 	border-radius: 9999px;
 	margin-top: 40px;
+}
+
+@media screen and (min-width: 640px) {
+	.card {
+		box-shadow: #303644 -5px 6px 0px 1px;
+		border-width: 2px;
+		border-color: #303644;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.319);
+		border-radius: 20px;
+		height: 500px;
+	}
+	.button {
+		box-shadow: #303644 -5px 6px 0px 1px;
+		background-color: white;
+		color: #303644;
+		border-width: 2px;
+		border-color: #303644;
+		font-weight: 700;
+		font-size: 18px;
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		border-radius: 9999px;
+		margin-top: 40px;
+	}
+	.hero-text {
+		font-family: 'FreeScript';
+		font-size: 2rem;
+		color: #00c8ff;
+		transform: rotate(-7deg);
+		letter-spacing: 2px;
+		text-shadow: -4px 2px 2px #7a4f1f;
+	}
+	.meal-text {
+		font-family: 'FreeScript';
+		font-size: 2.4rem;
+		color: #00c8ff;
+		transform: rotate(-5deg);
+		letter-spacing: 2px;
+		text-shadow: -4px 2px 2px #7a4f1f;
+	}
+	.list-item:before {
+		display: inline-block;
+		content: '';
+		background-image: url('/assets/img/checkmark.png');
+		background-size: contain;
+		width: 40px;
+		height: 40px;
+		margin-right: 10px;
+	}
+	.form {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 16px;
+		margin-top: 40px;
+	}
+	.form-field {
+		box-shadow: #303644 5px -6px 0px 1px;
+		background-color: rgba(255, 255, 255, 0.671);
+		color: #303644;
+		border-width: 2px;
+		border-color: #303644;
+		font-weight: 700;
+		font-size: 18px;
+		padding-left: 24px;
+		padding-right: 24px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		border-radius: 9999px;
+		margin-top: 40px;
+		width: 300px;
+	}
 }
