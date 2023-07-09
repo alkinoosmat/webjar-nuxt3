@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="w-full xl:min-h-fit xl:max-h-[1080px] bg-[#ee5a5a] py-20 flex flex-row justify-between"
+		class="w-full xl:min-h-fit xl:max-h-[1080px] bg-[#ee5a5a] py-20 flex flex-row justify-between sm:justify-center"
 	>
 		<div>
 			<img

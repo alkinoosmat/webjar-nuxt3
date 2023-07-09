@@ -305,20 +305,4 @@ html {
 		grid-gap: 16px;
 		margin-top: 40px;
 	}
-	.form-field {
-		box-shadow: #303644 5px -6px 0px 1px;
-		background-color: rgba(255, 255, 255, 0.671);
-		color: #303644;
-		border-width: 2px;
-		border-color: #303644;
-		font-weight: 700;
-		font-size: 18px;
-		padding-left: 24px;
-		padding-right: 24px;
-		padding-top: 16px;
-		padding-bottom: 16px;
-		border-radius: 9999px;
-		margin-top: 40px;
-		width: 300px;
-	}
 }
