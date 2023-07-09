@@ -308,7 +308,7 @@ html {
 }
 
 .custom-checkbox {
-	display: none; /* Hide the default checkbox */
+	display: none;
 }
 
 .custom-checkbox-icon {
@@ -320,7 +320,6 @@ html {
 	border-width: 2px;
 	border-color: #303644;
 	border-radius: 5px;
-	/* Add your custom icon background image or use CSS properties like 'background-image' to set the icon */
 }
 
 .custom-checkbox:checked + .custom-checkbox-icon {
@@ -342,4 +341,33 @@ html {
 	padding-top: 16px;
 	padding-bottom: 16px;
 	border-radius: 9999px;
+}
+
+.testimonials-card {
+	box-shadow: #303644 -5px 6px 0px 2px;
+	border-width: 4px;
+	border-color: #303644;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.quote {
+	position: relative;
+	padding: 0 20px;
+	margin: 10px 0;
+}
+
+.quote-icon {
+	position: absolute;
+	top: 0;
+	font-size: 24px;
+}
+
+.quote-icon:first-child {
+	left: 0;
+}
+
+.quote-icon:last-child {
+	right: 0;
+	top: auto;
 }

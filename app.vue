@@ -1,8 +1,3 @@
 <template>
-	<Hero />
-	<Cards />
-	<MealCard />
-	<GiftCard />
-
-	<Contact />
+	<NuxtPage />
 </template>

@@ -18,7 +18,10 @@
 		<div
 			class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-5 gap-10 pt-20 pb-40"
 		>
-			<div class="card">
+			<div
+				class="card"
+				id="cards"
+			>
 				<img src="~/assets/img/go-for-eat.svg" />
 				<p>The unrivaled meal card solution</p>
 				<img

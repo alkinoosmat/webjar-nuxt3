@@ -1,7 +1,13 @@
 export default defineNuxtConfig({
-	modules: ['@nuxtjs/tailwindcss'],
-	nitro: {
-		preset: 'vercel-edge',
+ modules: ['@nuxtjs/tailwindcss'],
+
+ nitro: {
+					preset: 'vercel-edge',
 	},
-	css: ['~/layouts/global.css'],
+
+ css: ['~/layouts/global.css'],
+
+ devtools: {
+	 enabled: true,
+	},
 });
