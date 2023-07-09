@@ -1,4 +1,3 @@
 <template>
-	<Hero />
-	<Cards />
+	<NuxtPage />
 </template>
