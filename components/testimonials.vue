@@ -39,16 +39,40 @@
 	</div>
 
 	<div
-		class="py-10 flex overflow-x-scroll xl:overflow-hidden gap-2 justify-start lg:justify-evenly bg-[#ffd069] w-full"
+		class="py-10 flex overflow-x-scroll xl:overflow-hidden gap-2 justify-start lg:justify-evenly Class Properties bg-[#ffd069] w-full"
 	>
-		<img src="~/assets/img/logo-1.svg" />
-		<img src="~/assets/img/logo-2.svg" />
-		<img src="~/assets/img/logo-3.svg" />
-		<img src="~/assets/img/logo-4.svg" />
-		<img src="~/assets/img/logo-5.svg" />
-		<img src="~/assets/img/logo-6.svg" />
-		<img src="~/assets/img/logo-7.svg" />
-		<img src="~/assets/img/logo-8.svg" />
+		<img
+			src="~/assets/img/logo-1.svg"
+			class="grayscale"
+		/>
+		<img
+			src="~/assets/img/logo-2.svg"
+			class="grayscale"
+		/>
+		<img
+			src="~/assets/img/logo-3.svg"
+			class="grayscale"
+		/>
+		<img
+			src="~/assets/img/logo-4.svg"
+			class="grayscale"
+		/>
+		<img
+			src="~/assets/img/logo-5.svg"
+			class="grayscale"
+		/>
+		<img
+			src="~/assets/img/logo-6.svg"
+			class="grayscale"
+		/>
+		<img
+			src="~/assets/img/logo-7.svg"
+			class="grayscale"
+		/>
+		<img
+			src="~/assets/img/logo-8.svg"
+			class="grayscale"
+		/>
 	</div>
 </template>
 
