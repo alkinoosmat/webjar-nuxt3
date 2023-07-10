@@ -1,7 +1,5 @@
 <template>
-	<div
-		class="w-full min-h-fit bg-[#fdc03a] py-20 xl:pt-20 flex flex-col 2xl:flex-row justify-between sm:justify-center"
-	>
+	<div class="w-full min-h-fit bg-[#fdc03a] py-20 xl:pt-20 flex flex-col 2xl:flex-row justify-between sm:justify-center">
 		<div class="flex flex-col px-6 xl:mx-28">
 			<div class="meal-text flex flex-col pb-10">
 				<p>THE UNRIVALLED MEAL</p>
@@ -9,21 +7,14 @@
 			</div>
 			<div class="window">
 				<div class="px-4 pb-6">
-					<div
-						class="flex sm:flex-row flex-col xl:gap-5 justify-between items-center"
-					>
+					<div class="flex sm:flex-row flex-col xl:gap-5 justify-between items-center">
 						<div class="flex flex-col sm:flex-row items-center sm:gap-5">
 							<img src="~/assets/img/go-for-eat.svg" />
-							<p
-								class="bg-[#ff9018] px-2 rounded-[10px] text-white font-bold text-[14px]"
-							>
+							<p class="bg-[#ff9018] px-2 rounded-[10px] text-white font-bold text-[14px]">
 								MEAL CARD
 							</p>
 						</div>
-						<img
-							src="~/assets/img/goforeatcard.png"
-							class="xl:ml-52 mt-6 xl:mr-6 sm:w-[160px] w-20"
-						/>
+						<img src="~/assets/img/goforeatcard.png" class="xl:ml-52 mt-6 xl:mr-6 sm:w-[160px] w-20" />
 					</div>
 					<div class="flex flex-col gap-6">
 						<div class="xl:w-[550px]">
@@ -66,10 +57,7 @@
 					</div>
 				</div>
 				<div class="contact ml-auto w-fit">
-					<a
-						href="#contact"
-						class="flex gap-4 text-white font-bold text-[18px]"
-					>
+					<a href="#contact" class="flex gap-4 text-white font-bold text-[18px]">
 						<p class="text-white font-bold text-[18px]">CONTACT US</p>
 						<img src="~/assets/img/arrow.png" />
 					</a>
@@ -77,10 +65,7 @@
 			</div>
 		</div>
 		<div class="flex justify-center">
-			<img
-				src="~/assets/img/goforeat.png"
-				class="object-contain"
-			/>
+			<img src="~/assets/img/goforeat.png" class="object-contain" />
 		</div>
 	</div>
 </template>
