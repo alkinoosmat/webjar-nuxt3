@@ -35,7 +35,7 @@
 html {
 	scroll-behavior: smooth;
 	color: #303644;
-	font-family: 'cf_asty_light' sans-serif;
+	font-family: sans-serif;
 	scrollbar-width: thin;
 	scrollbar-color: #888 #f1f1f1;
 }
